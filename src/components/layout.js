@@ -14,7 +14,7 @@ import '../css/index.scss'
 const Layout = (
     {children}
     ) => {
-    const lol = document.getElementsByClassName(".app");
+    // const lol = document.getElementsByClassName(".app");
     // const [isActive, setActive] = useState(false);
     // const toggleState = () => {
     //     setActive(!isActive);
