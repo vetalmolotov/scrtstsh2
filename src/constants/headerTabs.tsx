@@ -9,7 +9,7 @@ export const PROFILE_SIDEBAR_MENU: Array<ISidebarItem> = [
     {
         id: 0,
         text: 'All',
-        url: '/characters/all',
+        url: '/characters/',
     },
     {
         id: 1,
@@ -19,11 +19,11 @@ export const PROFILE_SIDEBAR_MENU: Array<ISidebarItem> = [
     {
         id: 2,
         text: 'Filter 2',
-        url: '/filter2',
+        url: '/characters/filter2',
     },
     {
         id: 3,
         text: 'Filter 3',
-        url: '/filter3',
+        url: '/characters/filter3',
     },
 ]

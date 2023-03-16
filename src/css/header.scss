@@ -18,16 +18,16 @@
     border: 3px solid transparent;
     background-color: rgba(135,189,177, 1);
     text-decoration: none;
-    transition:  all ease-in-out 300ms;
-    &.active {
+    transition:  all ease-in 500ms;
+    &[aria-current="page"] {
       font-size: 18px;
-      height: 60px;
       opacity: 1;
-      background-color: rgba(135,189,177, 0.4);;
+      background-color: rgba(135,189,177, 0.4);
+      transform: scale(1.5);
     }
     &:hover {
       border: 3px solid #68B3AF;
-      opacity: 0.7;
+      opacity: 0.5;
     }
     & + a {}
   }

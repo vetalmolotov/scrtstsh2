@@ -1,10 +1,9 @@
-// import * as React from 'react'
-import React from 'react';
-// import {Script} from "gatsby"
+import * as React from 'react'
 
 
 import '../css/heade-mob.scss'
 import TabContent from "./tabContent";
+import CharactersContent from "./charactersContent";
 
 
 const HeaderMob = () => {
@@ -23,7 +22,7 @@ const HeaderMob = () => {
                             id="content01"
                         />
                         <div className="menu-item-content">
-                            lol
+                            <CharactersContent />
                         </div>
                     </section>
 
@@ -66,7 +65,13 @@ const HeaderMob = () => {
                             name="mob-menu-item"
                             id="content04"
                         />
-                        <div className="menu-item-content">test filter 3</div>
+                        <div className="menu-item-content">
+                            <TabContent
+                                title="Filter 3"
+                                imageSrc="https://placehold.co/200x200"
+                                text="text"
+                            />
+                        </div>
                     </section>
                 </form>
 
